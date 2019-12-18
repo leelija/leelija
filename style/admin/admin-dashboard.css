@@ -1,0 +1,522 @@
+/**
+*	Admin Panel CSS
+*
+*	@author     	Himadri Shekhar Roy
+*	@date   	 	November 22, 2011
+*	@version 		1
+*	@copyright 		Analyze System
+*	@email			himadri.s.roy@ansysoft.com
+*/
+@charset "utf-8";
+
+body {
+	width:100%;
+	height:auto;
+	font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#999;
+	padding:0;
+	margin:0 auto;
+	left:0;
+}
+
+#body-top {
+	width:100%;
+	height:40px;
+	padding:0;
+	margin:0;
+	left:0;
+	top:0;	
+	border-bottom:1px solid #eee;
+	box-shadow:0px 5px 10px #eee;
+	-moz-box-shadow:0px 5px 10px #eee;
+	-webkit-box-shadow:0px 5px 10px #eee;
+	position:fixed;
+	background-color:#fff;
+}
+
+#body-top #top-left {
+	font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:40px;
+	vertical-align:middle;
+	padding:0px 20px;
+	width:25%;
+	float:left;
+}
+
+#body-top #top-left a {
+	color:#1db9f6;
+	text-decoration:none;
+	margin:0 20px 0 0;
+}
+
+#body-top #top-right {
+	font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:40px;
+	vertical-align:middle;
+	width:50%;
+	float:right;
+	padding:0px 20px;
+}
+
+#body-top #top-right #welcome{
+	float:right;
+	margin-right:20px;
+}
+
+#body-top #top-right #num-login{
+	float:right;
+	margin-right:20px;
+}
+
+#body-top #top-right #admin-image {
+	height:30px;
+	width:auto;
+	float:right;
+	padding:0px 20px 0px 10px;
+	margin:5px 0px;
+}
+
+#body-top #top-right #admin-image img {
+	height:30px;
+	width:30px;
+	box-shadow:0px 3px 3px #fefefe;
+	-moz-box-shadow:0px 3px 3px #fefefe;
+	-webkit-box-shadow:0px 3px 3px #fefefe;
+}
+
+#body-top #top-right .divider {
+	height:30px;
+	width:1px;
+	margin:5px 0 0 0;
+	border-right:1px dotted #eee;
+	float:right
+}
+
+#body-top #top-right #dropdown-options {
+	height:30px;
+	width:30px;
+	float:right;
+	margin:5px 0 0 20px;
+	cursor:pointer;
+}
+
+#body-top #top-right #dropdown-options #dropdown-back {
+	width:250px;
+	margin:-10px 10px 0 0;
+	position:absolute;  
+	left:-999em; 			/* Hides the drop down */  
+	text-align:left;  
+	padding:10px 5px 10px 5px;  
+	border:1px solid #eee;  
+	border-top:none;  
+  
+	/* Gradient background */  
+	background:#F4F4F4;  
+	background: -moz-linear-gradient(top, #fff, #F4F4F4);  
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#F4F4F4));  
+
+	box-shadow:0px 5px 5px #ddd;
+}
+
+
+#body-top #top-right #dropdown-options:hover  #dropdown-back{
+	left:100%;  
+    top:auto;
+	margin:-10px 0 0 -280px;
+}
+
+#body-top #top-right #dropdown-options #dropdown-back div {
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+	width:210px;
+	margin:0px 20px;
+}
+	
+#body-top #top-right #dropdown-options #dropdown-back .logout a {
+	color:#cb0000;
+	text-decoration:none;
+}
+
+/**
+*	Header
+*/
+#header #header{
+	
+	background-color:#fff;
+}
+
+
+
+/**
+*	Admin Body
+*/
+.container {
+	width:100%;
+	padding:20px 0px 50px 0px;
+	margin:0px;
+	background-color:#fff;
+	min-height:530px;
+}
+
+.container .inner-container{
+	margin:0px 20px;
+}
+
+
+
+.container .inner-container #main-body {
+	width: 100%;
+	padding:0;
+	margin: 0;
+}
+
+/***********************************************************************************************************************
+*
+*														Admin Menu
+*
+***********************************************************************************************************************/
+.container .inner-container #admin-menu {
+	width:200px;
+	height:auto;
+	float:left;
+}
+.container .inner-container #admin-menu  #brand-logo{
+	width: 200px;
+	height:70px;
+	padding:40px 0 0px 0;
+	margin:0 30px 10px 0px;
+}
+.container .inner-container #admin-menu .menu-block{
+	width:198px;
+	height:auto;
+	margin:0 20px 20px 0;
+	border:1px solid #ddd;
+}
+
+.container .inner-container #admin-menu .menu-block h2 {
+	font:bold 11px Helvetica, Arial, "Trebuchet MS", sans-serif;
+	margin:1px;
+	padding:0px;
+	width:196px;
+	text-align:left;
+	text-transform:uppercase;
+	color:#fff;
+	line-height:36px;
+	height:36px;
+	vertical-align:middle;		
+	box-shadow:0px 2px 8px #ddd;
+	border-bottom:1px solid #fff;
+	background-color:#666;
+	background: -moz-linear-gradient(top, #666, #454545);  
+	background: -webkit-gradient(linear, 0 0, 0 8%, from(#666), to(#454545));
+
+	text-shadow:0px 1px 1px #000;
+	
+	border-radius:1px;
+}
+
+.container .inner-container #admin-menu .menu-block h2 img{
+	float:left;
+	margin:7px 15px 0 10px;
+}
+
+.container .inner-container #admin-menu .menu-block ul {
+	margin:5px 10px 10px 10px;
+	padding:0;
+}
+
+.container .inner-container #admin-menu .menu-block ul li {
+	font:normal 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	list-style:none;
+	color:#666;
+	line-height:16px;
+	width:100%;
+	display:block;
+	padding:2px;
+}
+
+.container .inner-container #admin-menu .menu-block ul li a{
+	color:#666;
+	text-decoration:none;
+}
+
+.container .inner-container #admin-menu .menu-block ul li a:hover {
+	color:#1db9f6;
+}
+
+
+.container .inner-container #admin-menu .menu-block ul li:hover{
+	text-decoration:none;
+	text-shadow:0px 1px 0px #fff;
+	width:176px;
+}
+
+.container .inner-container #admin-body {
+	margin:0px 0px 20px 230px;
+}
+
+.container .inner-container #admin-body #admin-top{
+	height:80px;
+	width:100%;
+	padding:40px 0 0 0;
+	border-bottom:1px dotted #eee; 
+}
+
+/***********************************************************************************************************************
+*
+*														Admin Dashboard
+*
+***********************************************************************************************************************/
+#dashboard-main {
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+#dashboard-main #welcome {
+	margin:0;
+}
+
+#dashboard-main #welcome h1{
+	font:normal 36px HelveticaNeue, Helvetica, Arial, "Arial Narrow", sans-serif;
+	margin:0;
+	padding:0;
+	float:left;
+	color:#333;
+}
+
+
+#dashboard-main #welcome #server-date {
+	font:italic 16px "Myriad Pro", "Myriad Pro Cond", "Trebuchet MS", Verdana, Arial;
+	
+	float:right;
+	width:400px;
+	height:38px;
+	line-height:38px;
+	vertical-align: bottom;
+	color:#999;
+	text-align:right;
+	text-shadow:0px 1px 0px #fff;
+	
+}
+
+#dashboard-main #dashboard-left {
+	width:69%;
+	height:auto;
+	float:left;
+	margin:0 1% 0 0;
+}
+
+#dashboard-main #dashboard-right {
+	width:30%;
+	height:auto;
+	float:left;
+}
+
+#dashboard-main #dashboard-left .block-element,  #dashboard-main #dashboard-right .block-element{
+	width:100%;
+	height:auto;
+}
+
+#dashboard-main h2 {
+	font:normal 15px Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	text-shadow:0px 1px 0px #fff;
+	color:#666;
+	letter-spacing:.5px;
+}
+
+
+/***************************************************************************************************************************/
+/**
+*	Left Elements
+*/
+#dashboard-main #dashboard-left .block-element #manage-content {
+	background-color:#e5e5e5;
+	border:1px solid #ddd;
+	padding:30px 50px;
+}
+
+#dashboard-main #dashboard-left .block-element #manage-content .content-left {
+	width:40%;
+	margin-right:10%;
+	float:left;
+}
+
+#dashboard-main #dashboard-left .block-element #manage-content .content-right {
+	width:40%;
+	margin-left:10%;
+	float:left;
+}
+
+#dashboard-main .content-left ul, #dashboard-main .content-right ul {
+	font:normal 12px Arial, Helvetica, sans-serif;
+	margin:20px 0 10px 0;
+	padding:0;
+}
+
+#dashboard-main .content-left ul li, #dashboard-main .content-right ul li {
+	list-style:none;
+	line-height:30px;
+	border-bottom:1px dotted #ccc;
+	
+}
+
+#dashboard-main .content-left ul li a, #dashboard-main .content-right ul li a{
+	color:#999;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #fff;
+}
+
+
+/**
+*	Right Elements
+*/
+#dashboard-main #dashboard-right .block-element #view-statistics {
+	background-color:#cb0000;
+	border:1px solid #b90000;
+	padding:30px;
+}
+
+
+/**
+*	Footer CSS
+*/	
+#footer {
+	font:normal 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	vertical-align:middle;
+	padding:0;
+	margin:0px 0 0 0;
+	left:0;
+	top:0;
+	bottom:0;	
+	border-top:1px dotted #eee;
+	box-shadow:0px -10px 10px #eee;
+	-moz-box-shadow:0px -10px 10px #eee;
+	-webkit-box-shadow:0px -10px 10px #eee;
+	background-color:#fff;
+	text-align:center;
+}
+
+#footer a {
+	color:#1db9f6;
+	text-decoration:none;
+}
+
+#footer #footer-ansysoft {
+	font:normal 10px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:20px;
+	vertical-align:middle;
+	color:#ccc;
+	text-transform:uppercase;
+}
+
+#footer #footer-ansysoft a {
+	color:#cb0000;
+	text-decoration:none;
+}
+
+/***********************************************************************************************************************
+*
+*														Admin Left
+*
+***********************************************************************************************************************/
+
+.container .inner-container #left-content {
+	width:30%;
+	height:auto;
+	float:left;
+	margin:0 2% 0 0;
+}
+	.container .inner-container #left-content #logo {
+		margin:40px 0 20px 0;
+	}
+	.container .inner-container #left-content #statistics {
+		height:auto;
+		border:1px solid #eee;
+	}
+		#product-statistics {
+			padding:0 0 10px 0;
+			border-bottom:1px solid #eee;
+		}
+	
+.container .inner-container #main-section {
+	width:68%;
+	height:auto;
+	float:left;
+	padding:43px 0 0 0;
+	
+}
+	.container .inner-container #main-section h1{
+		font:normal 36px HelveticaNeue, Helvetica, Arial, "Arial Narrow", sans-serif;
+		margin:0 0 30px 0;
+		padding:0;
+		float:left;
+		color:#333;
+	}
+	.container .inner-container #main-section .option {
+		height:auto;
+		width:77.5%;
+		float:left;
+	}
+		.container .inner-container #main-section .option .option-block {
+			float:left;
+			margin:0 40px 20px 0;
+			border:1px solid #ddd;
+			
+		}
+			.container .inner-container #main-section .option .option-block .option-title {
+				width:160px;
+				height:25px;
+				background:#eee;
+				text-align:center;
+				padding:5px 0 0 0;
+				
+			}
+			.container .inner-container #main-section .option .option-block .option-dropdown {
+				width:162px;
+				height:auto;
+				min-height:160px;
+				background:#00ccff;
+				position:absolute;
+				margin:0 0 0 -1px;
+				padding:0;
+				color:#fff;
+				display:none;
+			}
+				.container .inner-container #main-section .option .option-block .option-dropdown ul{
+					list-style:none;
+					padding:0;
+					margin:0;
+				}
+				.container .inner-container #main-section .option .option-block .option-dropdown ul li {
+					height:auto;
+					border-bottom:1px solid #fff;
+					padding:5px 0;
+					text-align:center;
+					
+				}
+					.container .inner-container #main-section .option .option-block .option-dropdown ul li a {
+						text-decoration:none;
+						color:#fff;
+					}
+		
+		
+	.container .inner-container #main-section .miscellaneous {
+		width:19.5%;
+		height:auto;
+		border:1px solid #eee;
+		float:left;
+		padding:0 1% 1% 1%;
+	}
+		.container .inner-container #main-section .miscellaneous a {
+			color:#00ccff;
+			text-decoration:none;
+		}
+		
+

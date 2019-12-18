@@ -1,0 +1,34 @@
+
+update on
+31 may
+
+add table
+
+sample fabric
+
+sample hand
+sample manual
+
+
+
+
+
+
+
+
+
+Table upate
+ALTER TABLE  `sample_fabric` ADD  `labour_cost_per` DECIMAL( 8, 2 ) NOT NULL AFTER  `rate_per_meter`
+
+rozelle->table
+
+orders details
+
+
+16.6.2015
+
+add table rozelle_order_dtl
+
+
+
+Last Modified 15th august

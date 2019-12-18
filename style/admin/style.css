@@ -1,0 +1,602 @@
+/**
+*	Stylesheet for Harati Wear Administrator
+*
+*	@author		Himadri Shekhar Roy
+*	@date		December 02, 2009
+*	@copyright	Analyze System(Ansys)
+*	@version	1.0
+*/
+
+/* Body Alignment*/
+body{padding-top:0px; margin-top:5px; font-family:Arial, Helvetica, sans-serif; font-size: 11px;}
+.cenAln{margin:0 auto; left:23%; position:absolute} /* Centre Align*/
+
+/*Back Color*/
+.backTran{background: #E3E3E5} /* Transparent background*/
+
+/* Heading Related*/
+.tableHead{font-size: 11px;font-family: verdana, geneva, sans-serif;color:#004AAF ;text-decoration: none;}
+
+
+/* Font Styles*/
+.fArial{font-family:Arial, Helvetica, sans-serif}
+.fVerdana{font-family: Verdana, Arial, Helvetica, sans-serif}
+.fTrebuchet{font-family: "Trebuchet MS", "Arial Narrow", Arial, Tahoma}
+.fTimes{font-family:"Times New Roman", Times, serif}
+.fGeorgia{font-family:Georgia, "Times New Roman", Times, serif}
+
+.fCMaroon{color:#CC0000}
+
+.fS10{font-size:10px;}
+.fS11{font-size:11px;}
+.fS12{font-size:12px;}
+.fS14{font-size:13px;}
+.fS15{font-size:15px;}
+.fS18{font-size:18px;}
+.fS20{font-size:20px;}
+.fS22{font-size:22px;}
+.fS24{font-size:24px;}
+.fS26{font-size:26px;}
+
+a.redLink:link{color:#FF0000; text-decoration:none}
+a.redLink:link:hover{ color:#FF0000; text-decoration: underline}
+a.redLink:visited{color:#FF0000;  text-decoration:none}
+
+/* Blue Font*/
+.darkBlueFont{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #090075;}
+.darkBlueFont a{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #090075;
+	text-decoration: none;}
+.darkBlueFont a:hover{color: #090075;text-decoration: underline;}
+
+
+/* Black Font*/
+.black{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;}
+.black a{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #000000;
+	text-decoration: none;}
+.black a:hover{color: #000000;text-decoration: underline;}
+
+
+.blackLarge{font-size: 11px;font-family: verdana, geneva, sans-serif;color: #000000;text-decoration: none;}
+.blackLarge a{font-size: 11px;font-family: verdana, geneva, sans-serif;color: #999999;text-decoration: none;}
+.blackLarge a:hover{font-size: 11px;font-family: verdana, geneva, sans-serif;color: #000000;text-decoration: underline;}
+
+.blackLarge2{font-size: 10px;font-family: Arial, verdana, geneva, sans-serif;color: #000000;text-decoration: none;}
+.blackLarge2 a{font-size: 10px;font-family: Arial, verdana, geneva, sans-serif;color: #000000;text-decoration: none;}
+.blackLarge2 a:hover{font-size: 10px;font-family: Arial, verdana, geneva, sans-serif;color: #000000;text-decoration: underline;}
+
+
+.blackSmall{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 9px;color: #000000;}
+.blackSmall a{color: #000000; text-decoration:none}
+.blackSmall a:hover{color: #999999; text-decoration:underline}
+
+/* White Font*/
+.whiteLarge{font-size: 11px;font-family: verdana, geneva, sans-serif;color: #ffffff;text-decoration: none;}
+.whiteLarge a{font-size: 11px;font-family: verdana, geneva, sans-serif;	color: #ffffff;	
+text-decoration: none;}
+.whiteLarge a:hover{font-size: 11px;font-family: verdana, geneva, sans-serif;color: #ffffff;
+text-decoration:underline;}
+
+.white{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #FFFFFF;}
+.white a{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #FFFFFF;
+	text-decoration: none;}
+.white a:hover{color: #FFFFFF;text-decoration: underline;}
+
+.whiteSmall{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 9px;color: #FFFFFF;}
+.whiteSmall a{color: #FFFFFF; text-decoration:none}
+.whiteSmall a:hover{color: #999999; text-decoration:underline}
+
+/* Grey Font*/
+.grey{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #666666;}
+.grey a{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #666666;
+	text-decoration: none;}
+.grey a:hover{color: #666666;text-decoration: underline;}
+
+
+/* Button */
+.buttonYellow {height:24px; width:70px; line-height:26px; vertical-align:middle;  
+			   border:1px solid #F98605; padding-bottom:4px; color: #fff; font-weight:bold; 
+			   background: transparent url(../images/site/orangeBut.jpg) repeat-x; 
+			   overflow: hidden; cursor: pointer; }
+		   
+			   
+
+.buttonBlue{font-family: Verdana, Arial, Helvetica, sans-serif;color: #ffffff;
+			border:1px solid #063966;height:20px;background-color:#003768;font-size: 11px;
+			font-weight: 800;}
+
+
+/* Modified By: Himu 03 July, 2006
+   Purpose : Event Calendar	
+*/
+.pageHeading{font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;color: #000000;font-weight:900;}
+.invoiceFont{font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: #000000;font-style: normal;font-weight: 900;}
+.invoiceFont2{font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #000000;font-style: normal;font-weight: 900;}
+.invoiceFont3{font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #FFFFFF;font-style: normal;font-weight: 900;}
+
+
+.greyLetter{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #666666;}
+.greyLetter a{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #666666; text-decoration:none}
+.greyLetter a:hover{color: #333333; text-decoration:underline}
+
+.orangeLetter{	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #FB5200;}
+.orangeLetter a{	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #FB5200; text-decoration:none}
+.orangeLetter a:hover{	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #FB5200;}
+
+.redLetter{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #FF0000;}
+.redLetter a{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #FF0000; text-decoration:none}
+.redLetter a:hover{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #FF0000;}
+
+
+.emptyCell{	background-color:#F5F0F7;}/*EBEBEB*/
+.date {	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;color: #0000FF;}
+.date a{font-family: Arial, Helvetica, sans-serif;	font-size: 11px;color: #0000FF;}
+.date a:hover{font-family: Arial, Helvetica, sans-serif;font-size: 11px;color: #0000FF;
+text-decoration:none;}
+
+.dateSmall {	font-family: Arial, Helvetica, sans-serif;	font-size: 10px;color: #0000FF;}
+.dateSmall a{font-family: Arial, Helvetica, sans-serif;	font-size: 10px;color: #0000FF; text-decoration:none}
+.dateSmall a:hover{font-family: Arial, Helvetica, sans-serif;font-size: 10px;color: #0000FF;
+text-decoration:none;}
+
+
+.weekEnd{font-family:  Arial, Helvetica, sans-serif;font-size: 12px;color: #FF0000;}
+.weekEnd a{	font-family:  Arial, Helvetica, sans-serif;	font-size: 12px;color: #FF0000; text-decoration:none }
+.weekEnd a:hover{font-family:  Arial, Helvetica, sans-serif;font-size: 12px;color: #FF0000;	text-decoration:underline;}
+
+
+
+/* Pagination style */
+.pagination{font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 10px;color: #000000;	padding-left: 20px;
+	margin-bottom: 15px;}
+.pagination a{	color: #0000FF;	text-decoration: underline;	margin-bottom: 1px;}
+.pagination a:hover{color: #D92F04;}
+/* End of pagination style*/
+
+/* Error Message */
+.error{	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px;color: #FF0000;}
+
+/* Menu Text */
+.menuText{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #666666;}
+.menuText a{color: #666666; text-decoration:none}
+.menuText a:hover{color: #333333; text-decoration:underline}
+
+.menuT{
+	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #666666;
+	float:left;
+	margin:10px 0 0 10px;
+}
+
+.menuTxt{
+	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #666666;
+	float:left;
+	margin:10px 10px 10px 155px;
+}
+.menuTxt a{
+	text-decoration:none;
+}
+.hideDesc{
+	display:none;
+}
+.showDesc{
+	display:block;
+}
+/* Body Text*/
+.bodyText{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;color: #666666;}
+.bodyText a{color: #666666; text-decoration:none}
+.bodyText a:hover{color: #333333; text-decoration:underline}
+
+/* Maroon Error*/
+.maroonError{font-family: Arial, Helvetica, sans-serif;	font-size: 11px;color: #CC0000;}
+.maroonError a{color: #CC0000; text-decoration:none;font-size: 11px}
+.maroonError a:hover{color: #CC0000; text-decoration: underline;font-size: 11px}
+
+/* Draw image border*/
+.lightBorder{border:1px solid #E7E9EB;}
+
+/* Green Letter - use for success */
+.greenLetter{	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #00B900;}
+.greenLetter a{	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #00B900; text-decoration:none}
+.greenLetter a:hover{	font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color: #00B900;}
+
+.greenLFont{	font-family: Arial, Helvetica, sans-serif; color: #A6ED01;}
+.greenLFont a{	font-family: Arial, Helvetica, sans-serif; color: #A6ED01; text-decoration:none}
+.greenLFont a:hover{	font-family: Arial, Helvetica, sans-serif; color: #A6ED01;}
+
+/* Image Border*/
+.greyBorder{ border:1px solid #A8B0AD;}
+
+
+/*PURPLE HEADING AREA*/
+.purpleHeading{	font-family: Arial, Helvetica, sans-serif;font-size: 16px;	color: #6633CC;}
+.purpleHeading a{	font-family: Arial, Helvetica, sans-serif;font-size: 16px;	color: #6633CC; text-decoration:none}
+.purpleHeading a:hover{	font-family: Arial, Helvetica, sans-serif;font-size: 16px;	color: #6633CC; text-decoration: underline}
+
+.purpleHeadingSmall{font-family: Arial, Helvetica, sans-serif;	font-size: 13px;color: #6633CC;	}
+.purpleHeadingSmall a{font-family: Arial, Helvetica, sans-serif;	font-size: 13px;color: #6633CC;	}
+
+.purpleHeadingSmaller{font-family: Arial, Helvetica, sans-serif;	font-size: 11px;color: #6633CC;}
+.purpleHeadingSmaller a{font-family: Arial, Helvetica, sans-serif;	font-size: 11px;color: #6633CC; text-decoration:none}
+.purpleHeadingSmaller a:hover{	font-family: Arial, Helvetica, sans-serif;	font-size: 11px;color: #6633CC; text-decoration:underline}
+
+.largeDatePurple{font-family: Arial, Helvetica, sans-serif;	font-size: 24px;color: #6633CC;font-weight: 800;}
+
+
+/*Text box formatting*/
+.text_box_large{border:1px solid #DBD9D9;font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;color: #575757; height:25px; padding:3px}
+
+.text_box_large3{border:1px solid #DBD9D9;font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;color: #575757; height:27px; padding:3px}
+
+.textBox{height:19px; width:179px; padding:3px; border:1px solid #7DADDE; background-color:#EEF4FB}
+
+.textBoxA
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #575757;
+	height:25px; 
+	width:auto;
+	margin:7px 10px 0 0;
+	padding:3px;
+}
+
+
+.textArA{height:auto; width:auto; padding:3px; border:1px solid #7DADDE; background-color:#EEF4FB}
+
+/* Text Area back grey*/
+.textArBG{height:auto; width:auto; padding:3px; border:1px solid #7DADDE; background-color:#E4E4E4}
+
+.textAr{border:1px solid #DBD9D9;font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;color: #575757; height:auto; width:auto;}
+
+
+.cl{clear:both;}
+.fl{float:left}
+.fr{float:right}
+
+
+/* Paddings */
+.pad0	{padding:0px;}
+.pad2	{padding:2px;}
+.pad5	{padding:5px;}
+.pad10	{padding:10px;}
+.pad15	{padding:15px;}
+.pad20	{padding:20px;}
+
+.padT2	{padding-top:3px;}
+.padT3	{padding-top:3px;}
+.padT5	{padding-top:5px;}
+.padT10	{padding-top:10px;}
+.padT15	{padding-top:15px;}
+.padT20	{padding-top:20px;}
+.padT25	{padding-top:25px;}
+.padT30	{padding-top:30px;}
+.padT50	{padding-top:50px;}
+.padT55	{padding-top:55px;}
+.padT60	{padding-top:60px;}
+
+.padR5	{padding-right:5px;}
+.padR10	{padding-right:10px;}
+.padR13	{padding-right:13px;}
+.padR15	{padding-right:15px;}
+.padR20	{padding-right:20px;}
+
+.padB5	{padding-bottom:5px;}
+.padB10	{padding-bottom:10px;}
+.padB15	{padding-bottom:15px;}
+.padB20	{padding-bottom:20px;}
+.padB40	{padding-bottom:40px;}
+
+
+.padL2	{padding-left:2px;}
+.padL3	{padding-left:3px;}
+.padL4	{padding-left:4px;}
+.padL5	{padding-left:5px;}
+.padL10	{padding-left:10px;}
+.padL15	{padding-left:15px;}
+.padL20	{padding-left:20px;}
+.padL30	{padding-left:30px;}
+.padL40	{padding-left:40px;}
+.padL90	{padding-left:90px;}
+.padL105{padding-left:105px;}
+.padL380{padding-left:380px;}
+
+/* Margins */
+.mar0	{margin:0px}
+.mar5	{margin:5px;}
+.mar10	{margin:10px;}
+.mar15	{margin:15px;}
+.mar20	{margin:20px;}
+
+.marT2	{margin-top:2px;}
+.marT5	{margin-top:5px;}
+.marT8	{margin-top:8px;}
+.marT10	{margin-top:10px;}
+	* html .marT10 {margin-top:6px;}    /* ie6 and below hack */
+.marT15	{margin-top:15px;}
+.marT20	{margin-top:20px;}
+.marT25	{margin-top:25px;}
+.marT30	{margin-top:30px;}
+.marT200 {margin-top::500px;}
+
+.marR5	{margin-right:5px;}
+.marR10	{margin-right:10px;}
+.marR15	{margin-right:15px;}
+.marR20	{margin-right:20px;}
+.marR30	{margin-right:30px;}
+.marR40	{margin-right:40px;}
+.marR50	{margin-right:50px;}
+.marR60	{margin-right:60px;}
+
+.marB5	{margin-bottom:5px;}
+.marB10	{margin-bottom:10px;}
+.marB15	{margin-bottom:15px;}
+.marB20	{margin-bottom:20px;}
+
+.marL3	{margin-left:3px;}
+.marL5	{margin-left:5px;}
+.marL8	{margin-left:8px;}
+.marL10	{margin-left:10px;}
+.marL15	{margin-left:15px;}
+.marL17 {margin-left:17px;}
+.marL20	{margin-left:20px;}
+.marL40	{margin-left:40px;}
+.marL67	{margin-left:67px;}
+.marL110	{margin-left:110px;}
+.marL120	{margin-left:120px;}
+.marL125	{margin-left:125px;}
+.marL130	{margin-left:130px;}
+.marL140	{margin-left:140px;}
+.marL150	{margin-left:150px;}
+
+/* Width + Height */
+.ha	  { height:auto}
+.h5	  { height:5px}
+.h10  { height:10px}
+.h25  { height:25px}
+.h30  { height:30px}
+.h40  { height:40px}
+.h50  { height:50px}
+
+.w100P{width:100%}
+.w50P{width:50%}
+
+.w20  { width:20px}
+.w35  { width:35px}
+.w75  { width:75px;}
+.w100 { width:100px;}
+.w125 { width:125px;}
+.w150 { width:150px;}
+.w175 { width:175px;}
+.w200 { width:200px;}
+.w325 { width:325px}
+
+/* Borders */
+.bdrR {border:1px solid red;}
+.bdrBlueT{border-top:3px solid #80D3FF}
+
+.tblBrd{ border:1px solid #D3D3D3}/*F3F3F3 DDDDDD*/
+.bdrB{border-bottom:1px solid #D3D3D3}
+.bdrT{border-top:1px solid #D3D3D3}
+.bdrR{border-right:1px solid #D3D3D3}
+.bdrL{border-left:1px solid #D3D3D3}
+
+/* Background color and border for review*/
+.darkCellBack{background-color:#E9E9E9}
+.lightCellBack{background-color:#F3F3F3}
+.backYellow{ background-color: #FFFF00}
+.backOYellow{ background-color: #FFE96C}
+.lbBackPlain{ background-color:#E1EFFF}/* Light Blue Back EBEAFF*/
+.lbBack2{ background-color:#E9F2FB}
+.lbBack{background-image:url(../images/site/tblHdrBkgr.jpg); background-repeat:repeat-x; height:30px;}
+
+
+.backLBlue{ background-color:#EEF4FB}
+
+.bdrBGy {border-bottom:1px dotted #D2D2D2;}
+.adminBarBack{background-image:url(../admin/images/barbkgr.jpg); background-repeat:repeat-x;}
+
+
+/* Notice Style : 28-APR-2008 */
+.notSty {height:auto; width:100%; padding:10px 5px; margin:10px 0px; border: 1px dotted #FA880B;}
+.erBlock{height:auto; width:98%; padding:10px 5px; margin:10px 0px; border: 1px dotted #FA880B;
+ background-color: #FAF2EB; }
+.suBlock{height:auto; width:98%; padding:10px 5px; margin:10px 0px; border: 1px dotted #3d9c4b;
+ background-color:#e4f4dd}
+ 
+.erBlockUsr{height:auto; width:95%; padding:10px 0px 10px 0px; margin:10px 0px; 
+ 	border: 1px dotted #FA880B;
+ 	background-color: #FAF2EB;
+	}
+	
+.suBlockUsr{height:auto; width:95%; padding:10px 5px; margin:10px 0px; 
+ 	border: 1px dotted #3d9c4b;
+ 	background-color: #e4f4dd;
+	}
+	
+
+/*Cursor Style*/
+.curP{cursor:pointer}
+
+/**
+*	Admin Control Panel Style
+*/
+.indexHead{font-family: Arial, Helvetica, sans-serif; font-size:28px; color: #9ED009;}
+.indexHeadBlk{font-family: Arial, Helvetica, sans-serif; font-size:28px;}
+.indexBdrLG{border:1px solid #9ED009}/*Lemon Green Border*/
+.indexBdrBl{border:1px solid #03a0c3}/*Blue Border*/
+.indexDivBdrL{border-bottom:3px solid #00a0d4}/*Index page bottom border left*/
+.indexDivBdrR{border-bottom:3px solid #f2e700}/*Index page bottom border left*/
+
+
+/* Text */
+.bld {font-weight:bold;}
+.ltSpace2{letter-spacing:5px}
+.ltSpace03em{letter-spacing:.03em}
+.ltSpace04em{letter-spacing:.04em}
+
+
+
+
+
+/**
+*	Text Box and Button for Muscle Instructor
+*
+*	@date May 25, 2011
+*/
+.text_box_large2{
+	font:bold 15px Arial, Helvetica, sans-serif;
+	border:1px solid #D8D6D6;
+	background-color:#F8F8F8;
+	color: #A6A6A6; 
+	height:24px;
+	line-height:24px;
+	vertical-align:middle; 
+	padding:3px
+	}
+
+.button-add-to-set {
+	background:url(../images/icon/add-button.png) no-repeat;
+	font:bold 15px Arial, Helvetica, sans-serif;
+	border:0;
+	color: #fff;
+	width:125px; 
+	height:34px;
+	line-height:34px;
+	vertical-align:middle; 
+	margin:20px 0 20px 0;
+	text-indent:22px;
+	cursor:pointer;
+	}
+
+.button-delete-from-set {
+	background:url(../images/icon/delete-button.png) no-repeat;
+	font:bold 15px Arial, Helvetica, sans-serif;
+	border:0;
+	color: #fff;
+	width:125px; 
+	height:34px;
+	line-height:34px;
+	vertical-align:middle; 
+	margin:0;
+	padding:0;
+	text-indent:22px;
+	cursor:pointer;
+	}
+	
+
+	
+.exercise-item-number {
+	font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:36px;
+	height:auto;
+	vertical-align:middle;
+	width:20px;
+	margin-left:10px;
+	padding:5px 0 0 10px;
+	float:left;
+}
+
+.exercise-item {
+	font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:36px;
+	height:auto;
+	vertical-align:middle;
+	width:250px;
+	margin-left:10px;
+	padding:5px 0 0 10px;
+	float:left;
+}
+
+
+.noOpecity{
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	z-index:2000;
+}
+
+	
+
+/* for png fix */	
+* html img,
+* html .png{
+position:relative;
+behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+);
+}	
+/* end for png fix */
+
+
+
+/*******************Multi filter design***********************/
+.filters {
+  margin-bottom: 20px; }
+
+.filter-container {
+  float: left;
+  width: 14%;
+  padding-right: 10px; }
+  .filter-container:last-of-type {
+    padding-right: 0; }
+  .filter-container input {
+    -webkit-appearance: none;
+    border: 1px solid #3C8DBC;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    width: 100%;
+	padding-left: 10px;
+	}
+    .filter-container input:focus {
+      outline: none; }
+	  
+/*Range filter*/
+.label.lightblue {
+	background-color: #99CCFF;
+}
+
+#external_filter_container_wrapper {
+  margin-bottom: 20px;
+  
+  
+}
+
+#filterda, #filterCF, #filterTF,#filterDate {
+  display: inline-block;
+  width: 140px;
+}
+.number_range_filter
+{
+    width:20px;
+}
+thead input, thead select {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color: #444;
+}	 
+table#example thead th {
+	font-size:12px;
+	padding: 3px 18px 3px 10px;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+	cursor: pointer;
+	* cursor: hand;
+}
+
+table.display tfoot th {
+	padding: 3px 18px 3px 10px;
+	border-top: 1px solid black;
+	font-weight: bold;
+} 
+
+
+
+	

@@ -1,0 +1,1 @@
+[19-Sep-2015 17:31:59 UTC] PHP Fatal error:  Call to undefined method StatusCat::getProductKeyword() in /home/monienterprises1/public_html/manual_status.php on line 77

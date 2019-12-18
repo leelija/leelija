@@ -1,0 +1,165 @@
+/****************************************************************************************************************
+*
+*													Web Form 
+*
+*****************************************************************************************************************/
+.webform-area {
+	float:left;
+}
+
+.popup-form {
+	height:auto;
+	width:96%;
+	margin:0px auto;
+}
+
+	.webform-area h2, h2, .popup-form h2 {
+		font:normal 18px Arial, Helvetica, sans-serif;
+		color:#222;
+		padding:0;
+		margin:30px 0 10px 5px;
+	}
+	
+	.webform-area form {
+		padding:20px;
+		width:100%;
+		margin:0;
+		background:#fff;
+		border-radius:5px;
+	}
+	
+
+
+		.webform-area form label, .popup-form form label, form label {
+			font:normal 14px Georgia, "Times New Roman", Times, serif;
+			width:150px;
+			line-height:35px;
+			vertical-align:middle;
+			float:left;
+			text-shadow: 0px 1px 0px #fff;
+			-moz-text-shadow: 0px 0px 1px #fff;
+			-webkit-text-shadow: 0px 1px 0px #fff;
+			margin:5px 0;
+		}
+		
+		.webform-area form select, form input.text, form input.text_box_large, form input.textBoxA, .webform-area form select.textAr {
+			font:normal 16px helveNueThin, Helvetica, "Arial Narrow", Arial;
+			float:left;
+			height:26px;
+			padding:2px 5px;
+			margin:5px 0px;
+			border:1px solid #ddd;
+			border-radius:2px;
+			width:250px;
+		}
+		.webform-area form select.textAr {
+			width:auto;
+			font:normal 14px helveNueThin, Helvetica, "Arial Narrow", Arial;
+			margin:0 5px 0 0;
+		}
+		
+		
+		input:focus {
+			box-shadow: 0 0 10px #ddd;
+			-webkit-box-shadow: 0 0 10px #ddd; 
+			-moz-box-shadow: 0 0 10px #ddd;
+			border:1px solid #eee;
+			background-color:#FFCECE;
+			color:#000;
+		}
+		
+		select {
+			height:28px;
+			width:260px;
+			background:#eee;
+			text-shadow:#fff;
+		}
+		
+		.webform-area form label.radio,  form label.radio{
+			font:normal 14px Georgia, "Times New Roman", Times, serif;
+			width:auto;
+			margin:0 20px 0 0;
+			float:left;
+			line-height:35px;
+			vertical-align:middle;
+		}
+		
+		.webform-area form input.radio {
+			float:left;
+			width:30px;
+			height:30px;
+		}
+		
+		form input.radio {
+			float:left;
+			width:30px;
+			height:30px;
+		}
+
+		/**	Check Boxes **/
+		.webform-area form label.checkbox-label {
+			font:normal 14px/35px Georgia, "Times New Roman", Times, serif;
+			width:auto;
+			vertical-align:middle;
+			float:left;
+			
+			text-shadow: 0px 1px 0px #fff;
+			-moz-text-shadow: 0px 0px 1px #fff;
+			-webkit-text-shadow: 0px 1px 0px #fff;
+			margin:5px 1.2em .4em 0;
+		}
+		
+		.webform-area form input.checkbox {
+			float:left;
+			height:1.2em;
+			width:1.2em;
+			display:block;
+			line-height:2.2px;
+			vertical-align:middle;
+			margin:.9em 3em 0 0;
+		}
+
+/*=========================================Receipt==================================================================*/
+
+.amauntcal {
+width: auto;
+height: 60px;
+
+}
+.amapay {
+height: 60px;
+float: right;
+
+}
+
+.amaadvdue {
+height: 60px;
+float: left;
+
+}
+.psignature {
+width: auto;
+height: 40px;
+
+}
+.PaidBY {
+float: left;
+width: 60%;
+height: 40px;
+text-align: right;
+
+}
+.Paidline {
+width: 150px;
+height: 1px;
+background-color: 1px;
+
+}
+
+.lsig {
+float: right;
+width: 40%;
+height: 40px;
+text-align: center;
+
+}

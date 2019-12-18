@@ -1,0 +1,8 @@
+
+ul.stockDtl {
+    list-style-type: none;
+}
+ul.stockDtl li {
+    display: inline;
+	
+}

@@ -1,0 +1,66 @@
+/*Employee Voucher Design*/
+.voucher p{
+	font-size:18px;
+	color:#444;
+}
+.vrow{
+	width: 100%;
+	/*height:40px;*/
+	/*border-bottom: 2px solid #444;*/
+	
+}
+#vrow{
+	height:90px;
+	/*border-bottom: 2px solid #444;*/
+}
+.vline {
+	background-color:#222;
+	height: 1px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.voucher p.title{
+	font-size: 30px;
+	color: #444;
+	text-transform: uppercase;
+}
+.vrow #vinput{position: relative;bottom:5px;}
+.vrow .leftsubtitle{ width: 80%; height:40px;float:left; background: #fff;}
+.vrow .rightsubtitle{width: 20%; height:40px;float: right;}
+.vrowleft {text-align: left;}
+
+.vinner{
+}
+
+
+.vouRow{
+	width:800px;
+	height:40px;
+	font-size:18px;
+	color:#444;
+}
+.vouRowLeft
+{
+	width:400px;
+	height:auto;
+	float: left;
+	text-align:left;
+}
+.vouRowRight
+{
+	width:380px;
+	height:auto;
+	float: right;
+	text-align:left;
+}
+.vouPayDetails{
+	width:800px;
+	height:40px;
+	font-size:18px;
+	color:#444;
+}
+.vtext{
+	font-size: 15px;
+	color: #52c0d4;
+}

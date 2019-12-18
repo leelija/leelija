@@ -1,0 +1,8 @@
+/* CSS Document */
+@charset "utf-8";
+@import url(admin-dashboard.css);
+@import url(admin-inner.css);
+@import url(common.css);
+@import url(../jQuery/colorbox.css);
+@import url(pagination.css);
+@import url(popup.css);

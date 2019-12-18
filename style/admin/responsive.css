@@ -1,0 +1,45 @@
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  body{
+	width:100%;
+  }
+  /*Login Panel*/
+  #adminPanelLogin {
+	width:100%;
+}
+	#adminPanelLogin #loginBox{
+		width:100%;
+		height:auto;
+		
+	}
+	#adminPanelLogin #loginBox form label {
+				width:80%;
+				float:left;
+				margin:2px 0px 0px 50px;
+				
+			}
+	#adminPanelLogin #loginBox form input.login,  #adminPanelLogin #loginBox form input.security-key{
+		width: 80%;
+		height:100px;
+	}
+	
+	#adminPanelLogin #loginBox form input.loginButton {
+		width:80%;
+		height:100px;
+				
+	}
+
+	/*========== Employee Status	============*/
+	.detail-block {
+		font:normal 18px Arial, Helvetica, sans-serif;
+	}
+	.detail-block h4 {
+		font:bold 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+	.detail-block h4 img{
+		height:100px;
+		width:100px;
+	}
+	
+  }/* end of media*/

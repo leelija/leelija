@@ -1,0 +1,52 @@
+.overlay
+{
+    position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000000;
+	opacity: .45;
+	filter: alpha(opacity=45);
+	-moz-opacity: .45;
+	z-index: 9;
+	display: none;
+}
+.dialog
+{
+	cursor:move;
+    display: none;
+	position: fixed;
+	margin-left: 0;
+	margin-top: 0px;
+	background-color: #ffffff;
+	border: 2px solid #49B9F7;
+	box-shadow:0 0 10px #5C5C5C;
+	padding: 10px;
+	z-index: 9;
+}
+
+	
+	.dialog .topCloseBtn{
+		float:right;
+		margin:5px 15px 5px 0;
+	}
+	
+	
+	/**	Popup for Protocol Search **/		
+	.dialog{
+		top:100px;
+		left:17%;
+		width:900px;
+		height:480px;
+	}
+		.dialog .listofPatients{
+			width:100%;
+		}
+	/**	eof Popup for Protocol Search **/
+
+		

@@ -1,0 +1,204 @@
+/**
+*	Admin Panel CSS
+*
+*	@author     	Himadri Shekhar Roy
+*	@date   	 	November 22, 2011
+*	@version 		1
+*	@copyright 		Analyze System
+*	@email			himadri.s.roy@ansysoft.com
+*/
+@charset "utf-8";
+
+body {
+	width:100%;
+	height:auto;
+	font:normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#999;
+	padding:0;
+	margin:0 auto;
+}
+
+#header {
+	background:#fff;
+	width:100%;
+	height:auto;
+	display: block;
+	padding:1.5em 0;
+	text-align:center;
+	vertical-align:middle;
+	position:relative;
+}
+
+	#header img#logo {
+		width:auto;
+		height:auto;
+		margin:auto;
+		padding:0;
+		display:inline-block;
+	}
+	
+	
+#crm-login-page-heading-back {
+	background:url(../../images/admin/back/login-top-back.png) repeat;
+	height:auto;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+
+	#crm-login-page-heading-back h1{
+		font:normal 2em gotham-thin, gotham-book, HelveNueThin, "Arial Narrow";
+		text-align:center;
+		color:#767574;
+		margin:1em auto;
+	}
+	
+
+/** Admin panel login **/
+#adminPanelLogin {
+	width:500px;
+	height:auto;
+	left: 50%;
+	top: 50%;
+	margin:2em auto;
+}
+
+	
+
+	#adminPanelLogin #loginBox{
+		width:500px;
+		height:auto;
+		top:30px;
+		border: 1px solid #eee;
+		border-bottom: 3px solid #f4f4f4;
+		background-color:#fbfbfb;
+		color:#999;
+		padding:0 0 2em 0;
+		
+		display:block;
+		text-align:center;
+		position:relative;
+	
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		
+		
+	}
+
+		#loginBox h2 {
+			font:normal 26px Molengo, Molengo-Regular, HelveNueThin, Arial, sans-serif;
+			color:#444;
+			padding:0;
+			margin:10px 0;
+			text-align:center;  
+		}
+
+		/**	Login Form **/
+		#adminPanelLogin #loginBox form {
+			padding:0;
+			margin:0;
+		}
+
+			#adminPanelLogin #loginBox form label {
+				font:lighter normal 14px Georgia, "Times New Roman", Times, serif;
+				line-height:36px;
+				height:33px;
+				vertical-align:middle;
+				width:130px;
+				float:left;
+				margin:20px 0px 0px 50px;
+				text-shadow: 1px 1px 1px #fff;
+				-moz-text-shadow: 1px 1px 1px #fff;
+				-webkit-text-shadow: 1px 1px 1px #fff;
+			}
+
+			#adminPanelLogin #loginBox form input.login,  #adminPanelLogin #loginBox form input.security-key{
+				font:normal 1em gotham-book, "Gotham Book", "Gotham Medium";
+				line-height:2.5em;
+				height:2.5em;
+				padding:3px 5px;
+				border:1px solid #ddd;
+				color:#2a2622;
+				width:22em;
+				margin:.2em auto 0px auto;
+				text-indent:2em;
+				
+				border-radius:.5em;
+				-moz-border-radius:.5em;
+				-webkit-border-radius:.5em;
+				
+				box-shadow:0 2px 0 #fff;
+				
+			}
+
+			#adminPanelLogin #loginBox form input.login {
+				background:url(../../images/icon/user.png) no-repeat .5em #fff;
+			}
+			
+			#adminPanelLogin #loginBox form input.security-key {
+				background:url(../../images/icon/lock.png) no-repeat .5em #fff;
+			}
+			
+				
+
+			
+			#adminPanelLogin #loginBox form input.login:focus, #adminPanelLogin #loginBox form input.security-key:focus{
+				
+				background-color:#fff;
+				color:#000;
+			}
+
+			#adminPanelLogin #loginBox form input.loginButton {
+				background:#32cbfe;
+				margin:.75em auto 0px auto;
+				font:normal 14px gotham-book, "Gotham Book", "Gotham Medium";
+				width:23em;
+				height:3em;
+				padding:3px 5px;
+				line-height:36px;
+				vertical-align:middle;
+				cursor:pointer;
+				text-transform:uppercase;
+				color:#fff;
+				
+				border:1px solid #32cbfe;
+				letter-spacing:1px;
+				
+				border-radius:.5em;
+				-moz-border-radius:.5em;
+				-webkit-border-radius:.5em;
+			}
+
+			#adminPanelLogin #loginBox form input.loginButton:focus {
+				
+			}
+	
+/**	Footer **/		
+div#login-footer {
+	font:normal 12px Molengo, Molengo-Regular, HelveNueThin, Arial, sans-serif;
+	color:#bbb;
+	height:2em;
+	width:auto;
+	text-align:center;
+	display:block;
+	margin:6em auto;
+}
+
+	div#login-footer a {
+		color:#666;
+		text-decoration:none;
+	}
+
+	div#login-footer a:hover {
+		color:#1db9f6;
+		text-decoration:none;
+		-webkit-transition:color 1s ease-in;  
+		-moz-transition:color 1s ease-in;  
+		-o-transition:color 1s ease-in;  
+		transition:color 1s ease-in; 
+	}
+
+	div.mesg {
+		width:415px;
+		margin:20px 30px 0px 30px;
+	}
