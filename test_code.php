@@ -10,5 +10,5 @@ VALUES ('John', 'Doe', 'john@example.com')";
 
 
 mysql_query($sql);
-echo 222;
+echo 333;
 ?>
