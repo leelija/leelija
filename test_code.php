@@ -1,7 +1,7 @@
 <?php phpinfo() ?>
 <?php
 
-
+//Hello
 mysql_connect("localhost","root","Gold@2018");
 mysql_select_db("moni");
 
