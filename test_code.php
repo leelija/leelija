@@ -1,7 +1,7 @@
 <?php phpinfo() ?>
 <?php
 
-//Hello
+//Hello this is change from github
 mysql_connect("localhost","root","Gold@2018");
 mysql_select_db("moni");
 
